@@ -12,6 +12,6 @@ Welcome to my homepage! I'm a second year Computer Science master's student at [
 
 Experience
 ======
-Research assistant in [CUHK-CPII](https://www.cuhk.edu.hk/english/research/innohk-centres/perceptual-and-interactive-intelligence.html), mentered by Dr. [Chenkai](http://chenkai.site) and [Wenwei](http://zhangwenwei.cn), advised by [Prof. Dahua Lin](http://dahua.site). I am an contributor of [MMDetection3D](https://github.com/open-mmlab/mmdetection3d).
+During 2021, I was a Research assistant in [CUHK-CPII](https://www.cuhk.edu.hk/english/research/innohk-centres/perceptual-and-interactive-intelligence.html), mentered by Dr. [Chenkai](http://chenkai.site) and [Wenwei](http://zhangwenwei.cn), advised by [Prof. Dahua Lin](http://dahua.site). I am an contributor of [MMDetection3D](https://github.com/open-mmlab/mmdetection3d).
 
-LIDAR Perception Engineer in [Momenta](https://www.momenta.cn), I focuses on Rule-based and Deeplearning-based LIDAR Detection methods and deployed them in autonomous driving vehicles via C++.
+During 2018-2020, I was a LIDAR Perception Engineer in [Momenta](https://www.momenta.cn), focused on Rule-based and Deeplearning-based LIDAR Detection methods and deployed them in autonomous driving vehicles via C++.
