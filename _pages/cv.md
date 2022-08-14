@@ -11,23 +11,23 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Department of Computer Science, Jilin University, 2018
+* M.S. in Department of Computer Science, University of Copenhagen, 2023(expected)
+<!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected) -->
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2021: Research Assistant
+  *  The Chinese University of Hongkong, CPII
+  * Duties included: Support MMDection3D
+  * Supervisor: Dahua Lin
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2018-2020: LIDAR Perception Engineer
+  * Momenta
+  * Duties included: Developed Rule-based and Deeplearning Based LIDAR detection methods
+  * Supervisor: Liang Chen
   
-Skills
+<!-- Skills
 ======
 * Skill 1
 * Skill 2
@@ -56,4 +56,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
