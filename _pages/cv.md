@@ -19,8 +19,8 @@ Work experience
 ======
 * 2021: Research Assistant
   *  The Chinese University of Hongkong, CPII
-  * Duties included: Support MMDection3D
-  * Supervisor: Dahua Lin
+  * Duties included: Support MMDetection3D
+  * Supervisor: Wenwei Zhang, Dahua Lin
 
 * 2018-2020: LIDAR Perception Engineer
   * Momenta
