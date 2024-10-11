@@ -12,7 +12,8 @@ redirect_from:
 Education
 ======
 * B.S. in Department of Computer Science, Jilin University, 2018
-* M.S. in Department of Computer Science, University of Copenhagen, 2023(expected)
+* M.S. in Department of Computer Science, University of Copenhagen, 2023
+* Ph.D in School of computing, Computer Science, Clemson University, 2024 -> Now.
 <!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected) -->
 
 Work experience

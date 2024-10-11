@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my homepage! I'm a second year Computer Science master's student at [University of Copenhagen](https://www.ku.dk/english/), advised by [Prof. Serge Belongie](https://sergebelongie.github.io), I'm also an affiliated researcher of the [Poineer Center for AI](https://di.ku.dk/ai-centre). Prior to [DIKU](https://di.ku.dk/english/), I obtained my B.S. in Computer Science and Technology from [Jilin University](http://global.jlu.edu.cn). My reseach focuses on 3D Reconstruction, LIDAR Detection and Tracking.
+Welcome to my homepage! I'm a first year Computer Science PhD student at Clemson University, advised by [Prof. Siyu Huang](https://siyuhuang.github.io/). I got my master degree from [University of Copenhagen](https://www.ku.dk/english/), advised by [Prof. Serge Belongie](https://sergebelongie.github.io), I'm also an affiliated researcher of the [Poineer Center for AI](https://di.ku.dk/ai-centre). Prior to [DIKU](https://di.ku.dk/english/), I obtained my B.S. in Computer Science and Technology from [Jilin University](http://global.jlu.edu.cn). My reseach focuses on Generative models, 3D Reconstruction, LIDAR Object Detection and Tracking.
 
 Experience
 ======
