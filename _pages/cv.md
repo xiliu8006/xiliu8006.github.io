@@ -27,7 +27,11 @@ Work experience
   * Momenta
   * Duties included: Developed Rule-based and Deeplearning Based LIDAR detection methods
   * Supervisor: Liang Chen
-  
+
+Publications
+======
+  [3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors (NuerIPS Spotlight)](https://arxiv.org/abs/2410.16266)
+
 <!-- Skills
 ======
 * Skill 1
