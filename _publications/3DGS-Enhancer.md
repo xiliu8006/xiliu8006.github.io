@@ -5,7 +5,7 @@ collection: publications
 permalink: /publications/3DGS-Enhancer.pdf
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-05-24
-venue: 'NeurIPS 2024 Spotlight'
+venue: 'NeurIPS 2024'
 paperurl: 'hhttps://xiliu8006.github.io/files/3DGS-Enhancer.pdf'
 ---
 [Arxiv here](https://arxiv.org/abs/2410.16266)
