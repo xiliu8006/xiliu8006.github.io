@@ -5,9 +5,8 @@
 
     <title>Xi Liu</title>
 
-    <meta name="author" content="Jon Barron">
+    <meta name="author" content="Xi Liu">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     
   </head>
@@ -22,12 +21,14 @@
                 <p class="name" style="text-align: center;">
                   Xi Liu
                 </p>
-                <p>Welcome to my homepage! I am a second‑year Computer Science PhD student at <a href="https://www.clemson.edu/">Clemson University</a>, advised by <a href="https://siyuhuang.github.io/">Prof. Siyu Huang</a>. I earned my M.Sc. in Computer Science from DIKU, University of Copenhagen—where I was advised by <a href="https://sergebelongie.github.io">Prof. Serge Belongie</a>—and remain an affiliated researcher at the <a href="https://di.ku.dk/ai-centre">Pioneer Center for AI</a>. Prior to DIKU, I completed my B.S. in Computer Science and Technology at Jilin University.</p>
+                <p>Welcome to my homepage! I am a third-year Computer Science PhD student at <a href="https://www.clemson.edu/">Clemson University</a>, advised by <a href="https://siyuhuang.github.io/">Prof. Siyu Huang</a>. I earned my M.Sc. in Computer Science from DIKU, University of Copenhagen—where I was advised by <a href="https://sergebelongie.github.io">Prof. Serge Belongie</a>—and was an affiliated researcher at the <a href="https://di.ku.dk/ai-centre">Pioneer Center for AI</a> from 2022 to 2023. Prior to DIKU, I completed my B.S. in Computer Science and Technology at Jilin University.</p>
 
-                <p>My research interests span generative models, differentiable SVGs, 3D reconstruction, and 3D world understanding. <strong>I am actively seeking internship opportunities and am available at any time</strong> and would love to collaborate with organizations working at the intersection of LLM, generative model and 3D vision. Feel free to <a href="mailto:xiliu8006@gmail.com">contact me</a> if my work aligns with your team’s goals!</p>
+                <p>My research focuses on 3D vision, generative models, vision-language models, and neural rendering. I use generative priors to improve 3D reconstruction and scene understanding, and study how to parse images into structured representations such as SVGs.</p>
+                <p>I was an Applied Scientist Intern at Amazon, working on 3D virtual store reconstruction with Just Walk Out (2025) and on 3D-consistent video generation with Central Machine Learning (2026). Previously, I worked as a Research Assistant at CPII, CUHK, and as a LiDAR Perception R&amp;D Engineer at Momenta.</p>
+                <p><strong>I am actively seeking internship opportunities</strong> in generative AI, vision-language models, and 3D vision. Feel free to <a href="mailto:xiliu8006@gmail.com">contact me</a> about opportunities or collaborations!</p>
                 <p style="text-align:center">
                   <a href="mailto:xiliu8006@gmail.com">Email</a> &nbsp;/&nbsp;
-                  <a href="data/Xi-Liu_CV.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="data/Xi_Liu_CV2.pdf">CV</a> &nbsp;/&nbsp;
                   <a href="https://scholar.google.com/citations?hl=en&user=Hg8iIiAAAAAJ">Scholar</a> &nbsp;/&nbsp;
                   <a href="https://github.com/xiliu8006/">Github</a>
                 </p>
@@ -37,170 +38,94 @@
               </td>
             </tr>
           </tbody></table>
-          <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Research</h2>
-                <p>
-                  I'm interested in computer vision/graphics, generative AI, and automomous driving. Most of my research is about inferring editable video and 3D scene generation, and 3D world understanding.
-                </p>
-              </td>
-            </tr>
-          </tbody></table> -->
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-    <tr onmouseout="r2r_stop()" onmouseover="r2r_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <img src='images/bezier_splatting.png' width=100%>
-        </div>
-        <script type="text/javascript">
-          function r2r_start() {
-            document.getElementById('r2r_image').style.opacity = "1";
-          }
-
-          function r2r_stop() {
-            document.getElementById('r2r_image').style.opacity = "0";
-          }
-          r2r_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://xiliu8006.github.io/3DGS-Enhancer-project/">
-          <span class="papertitle">Bézier Splatting for Fast and Differentiable Vector Graphics</span>
-        </a>
-        <br>
-				<strong>Xi Liu*</strong>,
-        <a href="https://chaoyizh.github.io/chaoyizh-home-page/">Chaoyi Zhou*</a>,
-        <a href="http://nxzhao.com">Nanxuan Zhao</a>,
-        <a href="https://siyuhuang.github.io/#">Siyu Huang</a>,
-        <br>
-        <em>NeurIPS</em>, 2025
-        <br>
-        <a href="https://xiliu8006.github.io/3DGS-Enhancer-project/">project page</a>
-        /
-        <a href="https://arxiv.org/abs/2503.16424">arXiv</a>
-        <p></p>
-        <p>
-          This work introduces a new differentiable VG representation, dubbed Bézier splatting, that enables fast yet high-fidelity VG rasterization.
-        </p>
-      </td>
-    </tr>
-    <tr onmouseout="r2r_stop()" onmouseover="r2r_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='r2r_image'><video  width=100% muted autoplay loop>
-          <source src="images/teaser.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/3DGS-Enhancer.jpeg' width=100%>
-        </div>
-        <script type="text/javascript">
-          function r2r_start() {
-            document.getElementById('r2r_image').style.opacity = "1";
-          }
-
-          function r2r_stop() {
-            document.getElementById('r2r_image').style.opacity = "0";
-          }
-          r2r_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://xiliu8006.github.io/3DGS-Enhancer-project/">
-          <span class="papertitle">3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors</span>
-        </a>
-        <br>
-				<strong>Xi Liu*</strong>,
-        <a href="https://chaoyizh.github.io/chaoyizh-home-page/">Chaoyi Zhou*</a>,
-        <a href="https://siyuhuang.github.io/#">Siyu Huang</a>,
-        <br>
-        <em>NeurIPS</em>, 2024
-        <br>
-        <a href="https://xiliu8006.github.io/3DGS-Enhancer-project/">project page</a>
-        /
-        <a href="https://arxiv.org/abs/2410.16266">arXiv</a>
-        <p></p>
-        <p>
-          We leverage 2D video diffusion priors to address the challenging 3D view consistency problem, reformulating it as achieving temporal consistency within a video generation process.
-        </p>
-      </td>
-    </tr>
-
-    <tr onmouseout="lrf_stop()" onmouseover="lrf_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='lrf_image'><video  width=100% muted autoplay loop>
-          <source src="images/final_combined_video_with_text.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/first_frame_lrf.png' width=100%>
-        </div>
-
-        <script type="text/javascript">
-          function lrf_start() {
-            document.getElementById('lrf_image').style.opacity = "1";
-          }
-
-          function lrf_stop() {
-            document.getElementById('lrf_image').style.opacity = "0";
-          }
-          lrf_stop()
-        </script>
-      </td>
-
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://latent-radiance-field.github.io/LRF/">
-			<span class="papertitle">Latent Radiance Fields with 3D-aware 2D Representations
-</span>
-        </a>
-        <br>
-          <a href="https://chaoyizh.github.io/chaoyizh-home-page/">Chaoyi Zhou</a>*,
-				<a href="https://xiliu8006.github.io/">Xi Liu</a>*,
-          <a href="https://people.computing.clemson.edu/~luofeng/">Feng Luo</a>,
-
-        <a href="https://siyuhuang.github.io">Siyu Huang</a>
-
-        <br>
-        <em>ICLR</em>, 2025 &nbsp
-        <br>
-        <a href="https://latent-radiance-field.github.io/LRF/">project page</a>
-        /
-        <a href="https://arxiv.org/abs/2502.09613">arXiv</a>
-          /
-        <a href="https://github.com/ChaoyiZh/latent-radiance-field">code</a>
-        <p></p>
-        <p>
-		    In this work, we propose a method to achieve 3D-aware 2D representations and enable 3D reconstruction in the latent space.
-        </p>
-      </td>
-    </tr>
-          </tbody></table>
-
-          
-					<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <h2>Academic Service</h2>
-              <p>
-              <em>Conference Reviewer</em>: ICML 2025, ICLR 2025, NeurIPS 2024.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-						
-            
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  Original source code from  <a href="https://github.com/jonbarron/jonbarron_website">here</a>
-            </tr>
-          </tbody></table>
+          <section class="section-block" id="news" aria-labelledby="news-heading">
+            <h2 id="news-heading">News</h2>
+            <!-- Years follow the CV; exact acceptance months have not been supplied. -->
+            <ul class="news-list">
+              <li><time datetime="2026">2026</time><span><a href="#lang-svg">Lang-SVG</a> accepted to NeurIPS 2026.</span></li>
+              <li><time datetime="2026">2026</time><span><a href="#had">HAD</a> accepted to CVPR 2026.</span></li>
+              <li><time datetime="2025">2025</time><span><a href="#bezier-splatting">Bézier Splatting</a> accepted to NeurIPS 2025.</span></li>
+              <li><time datetime="2025">2025</time><span><a href="#latent-radiance-fields">Latent Radiance Fields</a> accepted to ICLR 2025.</span></li>
+              <li><time datetime="2024">2024</time><span><a href="#3dgs-enhancer">3DGS-Enhancer</a> accepted to NeurIPS 2024 (Spotlight).</span></li>
+            </ul>
+          </section>
+          <section id="publications" aria-labelledby="publications-heading">
+            <div class="section-block publication-heading">
+              <h2 id="publications-heading">Publications</h2>
+              <p>* Equal contribution.</p>
+            </div>
+            <table class="publications"><tbody>
+              <tr class="paper" id="lang-svg">
+                <td class="paper-image"><div class="paper-media"><img src="images/LangSVG.png" alt="Lang-SVG teaser showing hierarchical image vectorization and semantic structure" loading="lazy" decoding="async"></div></td>
+                <td class="paper-details">
+                  <span class="papertitle">Lang-SVG: Hierarchical Image Vectorization with Language Priors</span><br>
+                  <strong>Xi Liu</strong>, <a href="https://chaoyizh.github.io/chaoyizh-home-page/">Chaoyi Zhou</a>, Run Wang, Jiaang Li, <a href="https://people.computing.clemson.edu/~luofeng/">Feng Luo</a>, Junxiang Huang, <a href="https://siyuhuang.github.io/">Siyu Huang</a><br>
+                  <em>NeurIPS</em>, 2026
+                  <p>Hierarchical image vectorization with language priors.</p>
+                </td>
+              </tr>
+              <tr class="paper" id="seeing-or-knowing">
+                <td class="paper-image"><div class="paper-media"><img src="images/seeing_or_knowing_teaser.png" alt="Seeing or Knowing? Visual Context Sensitivity in Multimodal Large Language Models teaser" loading="lazy" decoding="async"></div></td>
+                <td class="paper-details">
+                  <a href="https://arxiv.org/abs/2607.26326"><span class="papertitle">Seeing or Knowing? Visual Context Sensitivity in Multimodal Large Language Models</span></a><br>
+                  Jiaang Li, Chengzu Li, Zhaochong An, Yifei Yuan, <strong>Xi Liu</strong>, <a href="https://sergebelongie.github.io/">Serge Belongie</a>, Vésteinn Snæbjarnarson<br>
+                  <em>ECCV, UniWorld Workshop</em>, 2026<br>
+                  <a href="https://arxiv.org/abs/2607.26326">arXiv</a>
+                  <p>We investigate how multimodal language models balance visual evidence against language priors, and how to control their reliance on visual context.</p>
+                </td>
+              </tr>
+              <tr class="paper" id="had">
+                <td class="paper-image"><div class="paper-media"><img src="images/had_teaser.png" alt="HAD: Hallucination-Aware Diffusion Priors for 3D Reconstruction teaser" loading="lazy" decoding="async"></div></td>
+                <td class="paper-details">
+                  <a href="https://xiliu8006.github.io/HAD-Project-website/"><span class="papertitle">HAD: Hallucination-Aware Diffusion Priors for 3D Reconstruction</span></a><br>
+                  <strong>Xi Liu</strong>, <a href="https://wsunid.github.io/">Weiwei Sun</a>, <a href="https://zhou-ren.github.io/">Zhou Ren</a>, Chris Broaddus, <a href="https://siyuhuang.github.io/">Siyu Huang</a>, Laurent Guigues<br>
+                  <em>CVPR</em>, 2026<br>
+                  <a href="https://xiliu8006.github.io/HAD-Project-website/">project page</a> / <a href="https://arxiv.org/abs/2605.16873">arXiv</a> / <a href="https://github.com/xiliu8006/HAD">code</a>
+                  <p>We detect and mask hallucinated content in diffusion-generated views to improve sparse-view 3D reconstruction.</p>
+                </td>
+              </tr>
+              <tr class="paper" id="bezier-splatting">
+                <td class="paper-image"><div class="paper-media"><img src="images/bezier_splatting.png" alt="Bézier Splatting for Fast and Differentiable Vector Graphics teaser" loading="lazy" decoding="async"></div></td>
+                <td class="paper-details">
+                  <a href="https://xiliu8006.github.io/Bezier_splatting_project/"><span class="papertitle">Bézier Splatting for Fast and Differentiable Vector Graphics</span></a><br>
+                  <strong>Xi Liu*</strong>, <a href="https://chaoyizh.github.io/chaoyizh-home-page/">Chaoyi Zhou</a>*, <a href="http://nxzhao.com">Nanxuan Zhao</a>, <a href="https://siyuhuang.github.io/">Siyu Huang</a><br>
+                  <em>NeurIPS</em>, 2025<br>
+                  <a href="https://xiliu8006.github.io/Bezier_splatting_project/">project page</a> / <a href="https://arxiv.org/abs/2503.16424">arXiv</a> / <a href="https://github.com/xiliu8006/Bezier_splatting">code</a>
+                  <p>Bézier splatting enables fast, differentiable, high-fidelity vector graphics rasterization using 2D Gaussians sampled along curves.</p>
+                </td>
+              </tr>
+              <tr class="paper" id="latent-radiance-fields">
+                <td class="paper-image"><div class="paper-media"><img src="images/first_frame_lrf.png" alt="Latent Radiance Fields with 3D-aware 2D Representations teaser" loading="lazy" decoding="async"><video class="paper-video" muted autoplay loop playsinline preload="none" aria-hidden="true"><source src="images/final_combined_video_with_text.mp4" type="video/mp4"></video></div></td>
+                <td class="paper-details">
+                  <a href="https://latent-radiance-field.github.io/LRF/"><span class="papertitle">Latent Radiance Fields with 3D-aware 2D Representations</span></a><br>
+                  <a href="https://chaoyizh.github.io/chaoyizh-home-page/">Chaoyi Zhou</a>*, <strong>Xi Liu*</strong>, <a href="https://people.computing.clemson.edu/~luofeng/">Feng Luo</a>, <a href="https://siyuhuang.github.io/">Siyu Huang</a><br>
+                  <em>ICLR</em>, 2025<br>
+                  <a href="https://latent-radiance-field.github.io/LRF/">project page</a> / <a href="https://arxiv.org/abs/2502.09613">arXiv</a> / <a href="https://github.com/ChaoyiZh/latent-radiance-field">code</a>
+                  <p>We learn 3D-aware 2D representations that enable 3D reconstruction directly in latent space.</p>
+                </td>
+              </tr>
+              <tr class="paper" id="3dgs-enhancer">
+                <td class="paper-image"><div class="paper-media"><img src="images/3DGS-Enhancer.jpeg" alt="3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors teaser" loading="lazy" decoding="async"><video class="paper-video" muted autoplay loop playsinline preload="none" aria-hidden="true"><source src="images/teaser.mp4" type="video/mp4"></video></div></td>
+                <td class="paper-details">
+                  <a href="https://xiliu8006.github.io/3DGS-Enhancer-project/"><span class="papertitle">3DGS-Enhancer: Enhancing Unbounded 3D Gaussian Splatting with View-consistent 2D Diffusion Priors</span></a><br>
+                  <strong>Xi Liu*</strong>, <a href="https://chaoyizh.github.io/chaoyizh-home-page/">Chaoyi Zhou</a>*, <a href="https://siyuhuang.github.io/">Siyu Huang</a><br>
+                  <em>NeurIPS</em>, 2024 &nbsp; <strong class="spotlight">Spotlight</strong><br>
+                  <a href="https://xiliu8006.github.io/3DGS-Enhancer-project/">project page</a> / <a href="https://arxiv.org/abs/2410.16266">arXiv</a> / <a href="https://github.com/xiliu8006/3DGS-Enhancer">code</a>
+                  <p>We use video diffusion priors to enhance 3D Gaussian Splatting, treating consistency across views as temporal consistency in video generation.</p>
+                </td>
+              </tr>
+            </tbody></table>
+          </section>
+          <section class="section-block" id="service" aria-labelledby="service-heading">
+            <h2 id="service-heading">Academic Service</h2>
+            <p><em>Conference Reviewer</em>: NeurIPS (2024, 2025), ICLR (2025, 2026), ICML (2025, 2026), CVPR (2026).</p>
+            <p><em>Additional Reviewing</em>: TVCG (2025), SIGGRAPH (2026).</p>
+          </section>
+          <footer class="section-block">
+            <p style="text-align:right;font-size:small;">Website template from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.</p>
+          </footer>
         </td>
       </tr>
-    </table>
+    </tbody></table>
   </body>
 </html>

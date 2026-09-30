@@ -140,3 +140,29 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+/* Keep the original compact, two-column academic homepage layout. */
+.section-block { padding: 16px 20px; }
+.news-list { list-style: none; margin: 16px 0 0; padding: 0; }
+.news-list li { display: flex; gap: 18px; margin-bottom: 10px; line-height: 1.5; }
+.news-list time { flex: 0 0 40px; color: #666; font-variant-numeric: tabular-nums; }
+.publication-heading { padding-bottom: 0; }
+.publication-heading p { color: #666; margin-bottom: 4px; }
+.publications { width: 100%; border: 0; border-spacing: 0 10px; }
+.paper-image { padding: 16px; width: 25%; vertical-align: middle; }
+.paper-details { padding: 16px 16px 16px 8px; width: 75%; vertical-align: middle; line-height: 1.5; }
+.paper-details p { margin-bottom: 0; }
+.paper-media { position: relative; width: 160px; max-width: 100%; }
+.paper-media img { display: block; width: 100%; height: auto; }
+.paper-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; opacity: 0; transition: opacity .2s; background: white; }
+.paper:hover .paper-video, .paper:focus-within .paper-video { opacity: 1; }
+.teaser-pending { padding: 24px 8px; color: #777; text-align: center; background: #f7f7f7; font-size: 13px; }
+.spotlight { color: #b34126; }
+@media (prefers-reduced-motion: reduce) { .paper-video { display: none; } }
+@media (max-width: 540px) {
+  .publications, .publications tbody, .paper, .paper-image, .paper-details { display: block; width: auto; }
+  .paper-image { padding: 16px 20px 8px; }
+  .paper-media { width: 240px; }
+  .paper-details { padding: 8px 20px 20px; }
+  .news-list li { gap: 12px; }
+}
